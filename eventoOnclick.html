@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onclick</title>
+    <link rel="stylesheet" href="styleEvenOnclick.css">
+</head>
+<body>
+
+    <div class="Barra"> 
+
+        <div class="cuerpoB"> 
+            <h1>Dojonary</h1>
+            <form class="entrada" action="ingresartexto" method="post">
+                <input type="text" name="Searchfilter" id="entradabusqueda" placeholder="Search">
+            </form>
+            <button onclick="clickedElement (this)">Login</button>
+        </div>
+        
+    </div>
+    
+    <div class="Contenedor1">
+        <div class="fondo1">
+            <div class="cuerpo1">
+                <h1>ninja</h1>
+                <h2>noun</h2>
+                <h3>Plural: ninjas</h3>
+                <button onclick="alert ('Ninja was liked')">13 likes</button>
+            </div>
+            <div class="cuerpo1-0">
+                <p>A practitioner skiller in the </p>
+                <p id="m"><a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+            </div>
+        </div>
+            
+    </div> 
+
+    <div class="Contenedor3">
+        <div class="cuerpo3">
+            <p>Dojonary is</p>
+            <p>defined by YOU</p>
+            <button onclick="remove(this)"> Add Definition</button> 
+        </div>
+    </div>
+
+    <div class="Contenedor2">
+        <div class="fondo2">
+            <div class="cuerpo2">
+                <h1>ninja</h1>
+                <h2>noun</h2>
+                <h3>Plural: ninjas</h3>
+                <button>37 likes</button>
+            </div>
+            <div class="cuerpo2-0">
+                <p> A <a href="#">programmer</a> who breaks</p>
+                <p id="a">down problems with <a href="#">zen</a>-like</p>
+                <p id="b">focus</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="eventoOnclick.js"></script>
+</body>
+</html>

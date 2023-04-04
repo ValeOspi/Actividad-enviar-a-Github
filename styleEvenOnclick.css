@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Barra {
+    background-color: rgb(173, 165, 165);
+    margin: 0px 80px 20px 80px;
+    width: 62%;
+    padding: 16px;
+    padding-top: 10px;
+}
+
+.cuerpoB form input {
+    border: 4px solid black;
+    width: 400px;
+    padding: 6px;
+    margin-top: 14px;
+    font-size: 18px;
+}
+
+.entrada {
+    width: fit-content;
+}
+.Barra .cuerpoB {
+    font-family: cursive;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cuerpoB h1 {
+    margin-left: 26px;
+}
+
+.cuerpoB button {
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: 4px solid black; 
+    box-shadow: 4px 4px 1px 0px rgb(0, 0, 0);
+    width: 112px;
+    height: 36px;
+    margin-right: 30px;
+    margin-top: 14px;
+}
+
+.Contenedor1 {
+    display: inline-block;
+    vertical-align: top;
+    width: 42%;
+    margin-left: 80px;
+}
+
+.fondo1 {
+    border: 4px solid black;
+    margin-top: 20px;
+    display: flex;
+}
+.cuerpo1 {
+    flex-direction: row;
+    font-family: cursive;
+    width: 20%;
+    font-weight: bold;
+    padding-top: 16px;
+    padding-left: 50px;
+}
+
+.fondo1 .cuerpo1-0 {
+    flex-direction: row;
+    width: 70%;
+    text-align: right;
+    padding-right: 40px;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 1.5rem;
+    padding-top: 12%;
+}
+
+.cuerpo1-0 p {
+    padding-right: 40px ;
+}
+
+.cuerpo1-0 a {
+    padding-right: 18px ;
+}
+
+.cuerpo1 h1 {
+    font-size: 3em;
+    padding-left: 12px;
+}
+
+.cuerpo1 h2 {
+    font-style: italic;
+    padding-left: 28px;
+    font-size: 2em;
+}
+
+.cuerpo1 h3 {
+    font-size: 1.3em;
+    margin: 4px;
+}
+
+.cuerpo1 button {
+    background-color: rgb(226, 226, 84);
+    color: black;
+    border: 4px solid black;
+    padding: 12px;
+    box-shadow: 4px 4px 1px 0px rgb(0, 0, 0);
+    margin-top: 30px;
+    margin-bottom: 26px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 87%;
+}
+
+.Contenedor2 {
+    display: inline-block;
+    vertical-align: top;
+    width: 42%;
+    margin-left: 80px;
+}
+
+.fondo2 {
+    border: 4px solid black;
+    margin-top: 20px;
+    display: flex;
+
+}
+.cuerpo2 {
+    flex-direction: row;
+    font-family: cursive;
+    width: 20%;
+    font-weight: bold;
+    padding-top: 16px;
+    padding-left: 50px;
+}
+
+.fondo2 .cuerpo2-0 {
+    flex-direction: row;
+    width: 70%;
+    text-align: right;
+    padding-right: 40px ;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 1.5rem;
+    padding-top: 12%;
+}
+
+.cuerpo2-0 p {
+    padding-right: 40px ;
+}
+
+#a {
+    padding-right: 3%;
+}
+
+#b {
+    padding-right: 55% ;
+}
+
+.cuerpo2 h1 {
+    font-size: 3em;
+    padding-left: 12px;
+}
+
+.cuerpo2 h2 {
+    font-style: italic;
+    padding-left: 28px;
+    font-size: 2em;
+}
+
+.cuerpo2 h3 {
+    font-size: 1.3em;
+    margin: 4px;
+}
+
+.cuerpo2 button {
+    background-color: rgb(226, 226, 84);
+    color: black;
+    border: 4px solid black;
+    padding: 12px;
+    box-shadow: 4px 4px 1px 0px rgb(0, 0, 0);
+    margin-top: 30px;
+    margin-bottom: 26px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 87%;
+}
+
+.Contenedor3 {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.cuerpo3 {
+    color: black;
+    font-weight: bold;
+    font-family: cursive;
+    border: 4px solid black;
+    padding: 16px;
+    font-size: 26px;
+    height: 170px;
+}
+
+.cuerpo3 p {
+    margin-left: 20px;
+}
+.cuerpo3 button {
+    background-color: rgb(32, 170, 32);
+    border: 4px solid black;
+    padding: 12px;
+    box-shadow: 4px 4px 1px 0px rgb(0, 0, 0);
+    margin-top: 26px;
+    margin-left: 14px;
+    font-size: 20px;
+    width: 90%;
+    font-family: cursive;
+    font-weight: bold;
+}
